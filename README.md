@@ -1,4 +1,4 @@
-# Delani-Studio# Delani Studio website
+# Delani Studio website
 #### This is a web app that contains the informations about Delani Studio and its operations
 ### Author
  **Muisyo Joy**
