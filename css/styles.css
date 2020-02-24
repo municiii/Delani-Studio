@@ -1,5 +1,5 @@
 body {
-    margin: 20px;
+    margin: 30px;
 }
 .one {
     background-image: url(../assets/backgrounds/h_img.jpg);
@@ -29,6 +29,9 @@ body {
     background-position: center;
     
 }
+.what {
+    text-align: center;
+}
 .col-sm-3 {
     padding-left: 10px;
     
@@ -43,12 +46,11 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
-    padding-top: 180px;
-    padding-bottom: 500px;
+    
     
 }
 .contact h2 {
-    color: white;
+    color:white;
 }
 
 input[type=text]{
@@ -69,10 +71,10 @@ textarea[type=text]{
     background-color: transparent;
     border: 1px solid white;
 }
-#social {
+.social {
     text-align: center;
 }
-#final {
+.final {
     text-align: center;
 }
 .moja {
@@ -123,7 +125,7 @@ h2 {
     color: black;
     opacity: .5;
 }
-.form {
+.project {
     display: none;
     background-color: white;
     color: black;
