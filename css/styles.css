@@ -1,3 +1,6 @@
+body {
+    margin: 20px;
+}
 .one {
     background-image: url(../assets/backgrounds/h_img.jpg);
     background-repeat: no-repeat;
@@ -27,9 +30,11 @@
     
 }
 .col-sm-3 {
-    padding: 0.5%;
+    padding-left: 10px;
     
+    padding-bottom: 15px;
     position: relative;
+    
 
     
 }
@@ -38,14 +43,54 @@
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
-    padding-top: 140px;
+    padding-top: 180px;
     padding-bottom: 500px;
+    
+}
+.contact h2 {
+    color: white;
 }
 
 input[type=text]{
     background-color: transparent;
+    border: 1px solid white;
 
+}
+#email {
+    float: right;
+    margin-right: 450px;
+    color: white;
+}
+#name {
+    float: left;
+    margin-left: 450px;
 }
 textarea[type=text]{
     background-color: transparent;
+    border: 1px solid white;
+}
+#social {
+    text-align: center;
+}
+#final {
+    text-align: center;
+}
+.moja {
+    display: none;
+}
+.mbili {
+    display: none;
+}
+.tatu {
+    display: none;
+}
+h2 {
+    text-align: center;
+}
+.portfolio :hover{
+    background-color: white;
+    opacity: 0.1;
+}
+.submit {
+    text-align: center;
 }
