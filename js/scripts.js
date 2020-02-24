@@ -1,14 +1,17 @@
 $(document).ready(function() {
     $(".A,.moja").click(function() {
       $(".A,.moja").toggle();
+      $(".A,.moja").css("text-align","center")
       
     })
     $(".B,.mbili").click(function() {
       $(".B,.mbili").toggle();
+      $(".B,.mbili").css("text-align","center")
       
     })
     $(".C,.tatu").click(function() {
       $(".C,.tatu").toggle();
+      $(".C,.tatu").css("text-align","center")
     })
     $("#work4").hover(function(){
         $(".dark").slideToggle();
@@ -23,16 +26,16 @@ $(document).ready(function() {
         $(".jim").slideToggle();
     })
     $("#work5").hover(function(){
-        $(".elen").slideToggle();
+        $(".elena").slideToggle();
     })
     $("#work6").hover(function(){
-        $(".form").slideToggle();
+        $(".project").slideToggle();
     })
     $("#work7").hover(function(){
         $(".burned").slideToggle();
     })
     $("#work8").hover(function(){
-        $(".girrafe").slideToggle();
+        $(".giraffe").slideToggle();
     })
 
 $("#sendButton").click(function () {
