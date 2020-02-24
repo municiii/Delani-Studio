@@ -39,14 +39,14 @@ $(document).ready(function() {
     })
 
 $("#sendButton").click(function () {
-    var names = $("#names").val();
+    var name = $("#name").val();
     var email = $("#email").val();
     var message = $("#textArea").val();
-    if ((names === "") || (email === "") || (message === "")) {
+    if ((name === "") || (email === "") || (message === "")) {
         alert("Please, fill the required fields!");
     }
     else {
-        alert(names+", we have received your message. Thank you for reaching out to us!");
+        alert(name+", we have received your message. Thank you for reaching out to us!");
     }
 
 });
