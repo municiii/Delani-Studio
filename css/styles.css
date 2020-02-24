@@ -87,10 +87,57 @@ textarea[type=text]{
 h2 {
     text-align: center;
 }
-.portfolio :hover{
+.portfolio{
     background-color: white;
-    opacity: 0.1;
 }
 .submit {
     text-align: center;
+}
+.dark{
+    display: none;
+    background-color: white;
+    color: black;
+    opacity: .5;
+}
+.ontario {
+    display: none;
+    background-color: white;
+    color: black;
+    opacity: .5;
+}
+.polygon {
+    display: none;
+    background-color: white;
+    color: black;
+    opacity: .5;
+}
+.jim {
+    display: none;
+    background-color: white;
+    color: black;
+    opacity: .5;
+}
+.elena {
+    display: none;
+    background-color: white;
+    color: black;
+    opacity: .5;
+}
+.form {
+    display: none;
+    background-color: white;
+    color: black;
+    opacity: .5;
+}
+.burned {
+    display: none;
+    background-color: white;
+    color: black;
+    opacity: .5;
+}
+.giraffe {
+    display: none;
+    background-color: white;
+    color: black;
+    opacity: .5;
 }
