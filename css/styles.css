@@ -1,3 +1,6 @@
+body {
+    margin: 30px;
+}
 .one {
     background-image: url(../assets/backgrounds/h_img.jpg);
     background-repeat: no-repeat;
@@ -26,10 +29,15 @@
     background-position: center;
     
 }
+.what {
+    text-align: center;
+}
 .col-sm-3 {
-    padding: 0.5%;
+    padding-left: 10px;
     
+    padding-bottom: 15px;
     position: relative;
+    
 
     
 }
@@ -38,14 +46,100 @@
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
-    padding-top: 140px;
-    padding-bottom: 500px;
+    
+    
+}
+.contact h2 {
+    color:white;
 }
 
 input[type=text]{
     background-color: transparent;
+    border: 1px solid white;
 
+}
+#email {
+    float: right;
+    margin-right: 450px;
+    color: white;
+}
+#name {
+    float: left;
+    margin-left: 450px;
 }
 textarea[type=text]{
     background-color: transparent;
+    border: 1px solid white;
+}
+.social {
+    text-align: center;
+}
+.final {
+    text-align: center;
+}
+.moja {
+    display: none;
+}
+.mbili {
+    display: none;
+}
+.tatu {
+    display: none;
+}
+h2 {
+    text-align: center;
+}
+.portfolio{
+    background-color: white;
+}
+.submit {
+    text-align: center;
+}
+.dark{
+    display: none;
+    background-color: white;
+    color: black;
+    opacity: .5;
+}
+.ontario {
+    display: none;
+    background-color: white;
+    color: black;
+    opacity: .5;
+}
+.polygon {
+    display: none;
+    background-color: white;
+    color: black;
+    opacity: .5;
+}
+.jim {
+    display: none;
+    background-color: white;
+    color: black;
+    opacity: .5;
+}
+.elena {
+    display: none;
+    background-color: white;
+    color: black;
+    opacity: .5;
+}
+.project {
+    display: none;
+    background-color: white;
+    color: black;
+    opacity: .5;
+}
+.burned {
+    display: none;
+    background-color: white;
+    color: black;
+    opacity: .5;
+}
+.giraffe {
+    display: none;
+    background-color: white;
+    color: black;
+    opacity: .5;
 }
